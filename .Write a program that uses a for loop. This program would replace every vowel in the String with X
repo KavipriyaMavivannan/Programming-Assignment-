@@ -1,0 +1,17 @@
+package com.kavipriya;
+import java.until.scanner;
+public class main{
+     public static void main(string[] args) {
+     Scanner in=new Scanner(System.in) ;
+     System.out. print("enter a string:") ;
+     string str=in.nextLine() ;
+     char a[]=str.tocharArray() ;
+     for (char i:a) {
+            if(i=='a'||i=='e'||i=='i'||i=='o'||i=='u'){
+                i='X';
+            }
+            System.out.print(i);
+        }
+   }
+}
+    
