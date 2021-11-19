@@ -1,0 +1,12 @@
+package com.kavipriya;
+import java.until.scanner;
+public class main{
+     public static void main(string[] args) {
+         System. out. print("\nenter a number:") ; 
+        int num=inn.nextInt();
+        for(int i=num;i>=0;){
+            System.out.println(i);
+            i-=5;
+        }
+    }
+}
